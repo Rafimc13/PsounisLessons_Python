@@ -3,3 +3,5 @@ try:
         st = f.read()
 except FileNotFoundError as e:
     print("The file did not found: " + str(e))
+
+print("Hello World")
